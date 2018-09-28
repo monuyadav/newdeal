@@ -1,0 +1,11 @@
+2018-09-17T14:28:47+00:00 CRITICAL Uncaught Error: Call to undefined function mcrypt_module_open() in /var/www/html/wordpress/wp-content/plugins/ccavanue-woocommerce-payment-getway/index.php:537
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/ccavanue-woocommerce-payment-getway/index.php(433): nilesh_encrypt('merchant_id=123...', '123456789744')
+#1 /var/www/html/wordpress/wp-content/plugins/ccavanue-woocommerce-payment-getway/index.php(215): WC_nilesh_Ccave->generate_ccavenue_form('59_18091747')
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(286): WC_nilesh_Ccave->receipt_page(59)
+#3 /var/www/html/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/html/wordpress/wp-content/plugins/woocommerce/templates/checkout/order-receipt.php(45): do_action('woocommerce_rec...', 59)
+#6 /var/www/html/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(210): include('/var/www/html/w...')
+#7 /var/ww
+

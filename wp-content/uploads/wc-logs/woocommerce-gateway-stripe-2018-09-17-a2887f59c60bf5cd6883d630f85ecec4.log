@@ -1,0 +1,176 @@
+2018-09-17T13:37:14+00:00 DEBUG 
+====Stripe Version: 4.1.9====
+====Start Log====
+Your domain has been verified with Apple Pay!
+====End Log====
+
+
+2018-09-17T13:38:39+00:00 DEBUG 
+====Stripe Version: 4.1.9====
+====Start Log====
+sources/src_1DBMvuFXxflcsvs7HtWe6frx
+====End Log====
+
+
+2018-09-17T13:38:40+00:00 DEBUG 
+====Stripe Version: 4.1.9====
+====Start Log====
+Info: Begin processing payment for order 58 for the amount of 150.00
+====End Log====
+
+
+2018-09-17T13:38:40+00:00 DEBUG 
+====Stripe Version: 4.1.9====
+====Start Log====
+charges request: Array
+(
+    [currency] => inr
+    [amount] => 15000
+    [description] => Enlte - Order 58
+    [capture] => false
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [customer_name] => m y
+            [customer_email] => monuydvenlte@gmail.com
+            [order_id] => 58
+        )
+
+    [source] => src_1DBMvuFXxflcsvs7HtWe6frx
+)
+
+====End Log====
+
+
+2018-09-17T13:38:42+00:00 DEBUG 
+====Stripe Version: 4.1.9====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1DBMw1FXxflcsvs7sXF89Yai
+    [object] => charge
+    [amount] => 15000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => 
+    [captured] => 
+    [created] => 1537191521
+    [currency] => inr
+    [customer] => 
+    [description] => Enlte - Order 58
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => m y
+            [customer_email] => monuydvenlte@gmail.com
+            [order_id] => 58
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 4
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1DBMw1FXxflcsvs7sXF89Yai/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1DBMvuFXxflcsvs7HtWe6frx
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 12
+                    [exp_year] => 2020
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => Visa
+                    [country] => US
+                    [cvc_check] => pass
+                    [fingerprint] => 7U7UrHdynZpoaMCl
+                    [funding] => credit
+                    [last4] => 4242
+                    [three_d_secure] => optional
+                    [name] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_DccAIOYXeABP5bSlwIqpysGx
+            [created] => 1537191522
+            [currency] => 
+            [flow] => none
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Gurgaon
+                            [country] => IN
+                            [line1] => 141
+                            [line2] => 
+                            [postal_code] => 160017
+                            [state] => HR
+                        )
+
+                    [email] => monuydvenlte@gmail.com
+                    [name] => m y
+                    [phone] => 12345678
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+
+====End Log====
+
+
